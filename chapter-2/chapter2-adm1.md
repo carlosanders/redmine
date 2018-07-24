@@ -554,7 +554,7 @@ Para mais detalhes acesse https://www.infowester.com/linuxcron.php
 
 ### 7.1 Criando o script de shell para executar o backup do Banco de Dados
 
-Crie o arquivo `vim /var/www/redmine/backup.sh`.
+Crie o arquivo `vim /var/www/redmine/backup.sh`. Se desejar **visualizar e baixar** o script acesse, [backup_db_redmine.sh](scripts/backup_db_redmine.sh).
 
 ```bash
 #!/bin/bash
@@ -564,7 +564,7 @@ Crie o arquivo `vim /var/www/redmine/backup.sh`.
 REDMINE_DB_NAME=redmine_db
 # login user redmine:
 REDMINE_DB_USER=root
-REDMINE_DB_PASS=S1g@@d1@nt3
+REDMINE_DB_PASS=<senha_root_mysql>
 # configura a data atual
 NOW=$(date +"%d%m%Y_%H%M%Sh")
 # configura o arquivo
