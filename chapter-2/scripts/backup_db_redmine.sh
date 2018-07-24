@@ -5,7 +5,7 @@
 REDMINE_DB_NAME=redmine_db
 # login user redmine:
 REDMINE_DB_USER=root
-REDMINE_DB_PASS=S1g@@d1@nt3
+REDMINE_DB_PASS=senha-do-root
 # configura a data atual
 NOW=$(date +"%d%m%Y_%H%M%Sh")
 # configura o arquivo
