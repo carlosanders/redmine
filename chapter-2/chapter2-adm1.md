@@ -1,10 +1,7 @@
+<img src="img/2000px-redmine_logo-svg.png" width="50%"/>
 #  Administração do Redmine - Parte 1
 
-<img src="img/2000px-redmine_logo-svg.png" width="60%"/>
-
 > Autor: 1T (T) Anders - DAbM
-
-**Sumário:**
 
 [TOC]
 

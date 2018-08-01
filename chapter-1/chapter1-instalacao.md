@@ -1,15 +1,14 @@
-#  Manual de Instalação do Redmine Oracle Linux 7+
-
 <img src="img/2000px-redmine_logo-svg.png" width="60%"/>
 
-> Autor: 1T (T) Anders - DAbM
+#  Instalação do Redmine Oracle Linux 7+
 
-**Sumário:**
+> Autor: 1T (T) Anders - DAbM
 
 [TOC]
 
 ##  1. Introdução
-Este documento destina-se a orientação de instalação do **Redmine** no sistema operacional **Oracle Linux 7+** com Banco de Dados MySQL.
+
+Este **manual** destina-se a orientação de instalação do **Redmine** no sistema operacional **Oracle Linux 7+** com Banco de Dados MySQL.
 
 **Pré requisitos:**
 - Sistema Operacional: **Oracle Linux 7.3** com ao menos Interface gráfica selecionada.

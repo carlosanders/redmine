@@ -1,10 +1,9 @@
-#  Administração do Redmine - Parte 2
+<img src="img/2000px-redmine_logo-svg.png" width="50%"/>
 
-<img src="img/2000px-redmine_logo-svg.png" width="60%"/>
+#  Administração do Redmine - Parte 2
 
 > Autor: 1T (T) Anders - DAbM
 
-Sumário:
 [TOC]
 
 ##  1. Introdução
@@ -49,9 +48,9 @@ Enter password: *****
 
 ### 2.2 Fazendo backup dos Anexos
 
-Todos os uploads de arquivos são armazenados em `attachments_storage_path`(padrão para o diretório`files/`). Você pode caopiar o conteúdo desse diretório para outro local para fazer backup facilmente. 
+Todos os uploads de arquivos são armazenados em `attachments_storage_path` (padrão para o diretório`files/`). Você pode caopiar o conteúdo desse diretório para outro local para fazer backup facilmente. 
 
-**NOTA:** `attachments_storage_path`pode apontar para um diretório diferente que não seja `files/`. Certifique-se de verificar a configuração `config/configuration.yml`para evitar fazer um backup inútil. Se você seguiu o manual de instalação anterior, a pasta que contém o anexos do upload é o `/opt/redmine/files`. Caso esteja copiando para outro servidor não esqueça de colocar o **usuário** `apache` como dono do diretório `/opt/redmine`.
+**NOTA:** `attachments_storage_path`pode apontar para um diretório diferente que não seja `files/`. Certifique-se de verificar a configuração `config/configuration.yml` para evitar fazer um backup inútil. Se você seguiu o manual de instalação anterior, a pasta que contém o anexos do upload é o `/opt/redmine/files`. Caso esteja copiando para outro servidor não esqueça de colocar o **usuário** `apache` como dono do diretório `/opt/redmine`.
 
 Neste cenário, o comando usado para fazer a cópia da pasta `/opt/redmine/files` é o **rsync**, pois além de copiar com mair rapidez, preserva links simbólicos, permissões de arquivos, posses usuário e grupo e timestamps, para mais informações acesse o site: [https://e-tinet.com/linux/sincronizacao-de-arquivos-no-linux-rsync/](https://e-tinet.com/linux/sincronizacao-de-arquivos-no-linux-rsync/)
 
@@ -215,7 +214,7 @@ rm -rf $REDMINE_DB_BACKUP_FILE_SQL
 echo "done."
 ```
 
-Executar pemissões no arquivo de **backup.sh**. `chmod 777 /var/www/redmine/backup_db_redmine.sh`. 
+Executar pemissões no arquivo de **backup.sh**. `chmod 777 /var/www/redmine/backup_db_redmine.sh`
 
 ### 4.2 Criando o script para executar o backup dos diretórios do Redmine
 
