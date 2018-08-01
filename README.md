@@ -1,6 +1,6 @@
 # Guia do Redmine 3.3.0 no Oracle Linux 7.3+
 
-<img src="chapter-1/img/2000px-redmine_logo-svg.png" style="zoom:30%" />
+<img src="chapter-1/img/2000px-redmine_logo-svg.png" width="60%"/>
 
 > Autor: 1T (T) Anders - DAbM
 

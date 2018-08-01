@@ -1,6 +1,6 @@
 #  Manual de Instalação do Redmine Oracle Linux 7+
 
-<img src="img/2000px-redmine_logo-svg.png" style="zoom:25%" />
+<img src="img/2000px-redmine_logo-svg.png" width="60%"/>
 
 > Autor: 1T (T) Anders - DAbM
 
