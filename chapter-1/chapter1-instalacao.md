@@ -1,15 +1,18 @@
 #  Manual de Instalação do Redmine Oracle Linux 7+
 
-<div style="text-align:center" markdown="1">
-  <img src="img/2000px-redmine_logo-svg.png" width="50% " />
-</div>
+<img src="img/2000px-redmine_logo-svg.png" style="zoom:25%" />
+
 > Autor: 1T (T) Anders - DAbM
 
+**Sumário:**
+
+[TOC]
+
 ##  1. Introdução
-Este documento destina-se a orientação de instalação do **Redmine** no sistema operacional Oracle Linux 7 com Banco de Dados MySQL, em servidores da DAbM.
+Este documento destina-se a orientação de instalação do **Redmine** no sistema operacional **Oracle Linux 7+** com Banco de Dados MySQL.
 
 **Pré requisitos:**
-- Sistema Operacional: Oracle Linux 7.3 com ao menos Interface gráfica selecionada.
+- Sistema Operacional: **Oracle Linux 7.3** com ao menos Interface gráfica selecionada.
 
 ###  1.1  Redmine
 Redmine é um **software para gerenciamento** de projetos altamente flexível, é software livre (GNU General v2 – GPL). Suporta diversas funcionalidades primordiais ao gerenciamento e construção do projeto: gestão de versões, documentos, arquivos, repositórios. Planejamento, acompanhamento e workflow da execução das tarefas.
